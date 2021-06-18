@@ -5,6 +5,12 @@
     "manifest_version": 3,
     "permissions": ["storage", "activeTab", "scripting"],
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "/images/URL_transparent.png"
+        }
+    },
+    "icons": {
+        "128": "/images/URL_transparent.png"
     }
 }
