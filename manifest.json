@@ -10,6 +10,21 @@
             "128": "/images/URL_transparent.png"
         }
     },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "/images/URL_transparent.png"
+        }
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F",
+                "mac": "MacCtrl+Shift+F"
+            },
+            "description": "URL Shortener"
+        }
+    },
     "icons": {
         "128": "/images/URL_transparent.png"
     }
